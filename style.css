@@ -3,7 +3,6 @@ html,body{
     height: 100%;
     width: 100%;
 }
-
 .heading{
     text-align: center;
     font-family: 'Libre Baskerville', serif;
@@ -12,7 +11,7 @@ html,body{
     align-items: center;
     margin: auto;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
 }
 
 .button{
@@ -26,7 +25,7 @@ html,body{
 }
 
 .button:hover{
-    background-color: #d6d6d6;
+    background-color: #d3d1d1;
 }
 .row{
     margin: 5px 0;
@@ -37,4 +36,8 @@ html,body{
     padding: 10px 0px;
     border: 3px solid black;
     border-radius: 22px;
+}
+footer{
+    background-color: black;
+    color: white;
 }
